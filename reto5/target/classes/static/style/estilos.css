@@ -1,0 +1,26 @@
+.guardar{
+    padding-left: 100px;
+}
+.guardars{
+    padding-left: 160px;
+}
+body{
+    background: cadetblue;
+}
+
+.nav li a{
+    background: blue;
+    border: 1px solid whitesmoke;
+    color:whitesmoke;
+}
+.nav li a{
+    margin: 3px;
+    background:whitesmoke;
+    border-radius: 13px;
+    border: 1px solid rgba(29, 26, 26, 0.705);
+    color:#c53b0c;
+}
+.nav li a:hover{
+    background: rgba(255, 0, 0, 0.61);
+    color: whitesmoke;
+}

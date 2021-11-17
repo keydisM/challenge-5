@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apliación en JAVA ciclo 3 Grupo G42 SCRUM Grupo 1</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="style/estilos.css">
+  <script type="text/javascript" src="js/functiones.js"></script>
+</head>
+<body>
+
+<div class="container mt-2">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="Index.html">Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="cloud.html">cloud</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="category.html">Categorias</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="client.html">Clientes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="reservations.html">Reservas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="message.html">Mensajes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="admin.html">Admin-Usuarios</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="consultar.html">Modulo Consultas</a>
+    </li>
+  </ul>
+</div>
+<br>
+<div class="container mt-2">
+  <h1>Modulo de Registro Categorias</h1>
+</div>
+
+<div class="container mt2" id="result-categoria"></div>
+
+<div class="container mt2">
+<button type="button" class="btn btn-primary" onclick="consultarCategoria()">Consultar Categoria</button>
+</div>
+<div class="container mt-2">
+
+  <h3>Registre nueva Categoria</h3>
+  <br>
+
+  <label for="name">Nombre</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" id="name">
+  <br>
+  <br>
+  <label for="description">Descripción</label>&nbsp;&nbsp;&nbsp;&nbsp;
+  <textarea name="" id="description" cols="40" rows="4"></textarea>
+  <br><br>
+<div class="container mt 2 guardar">
+  <button class="btn btn-success">Guadar!</button>
+  <button class="btn btn-warning">Actualizar!</button>
+</div>
+  
+</div>
+
+</body>
+</html>
